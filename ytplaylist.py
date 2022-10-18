@@ -8,7 +8,7 @@ playlist = Playlist(playlist_url)
 
 print(len(playlist.video_urls))
 
-
+# Muestra la  url de los primeros 4 videos de la playlist
 for video in playlist.video_urls[:4]:
     print(video)
 
